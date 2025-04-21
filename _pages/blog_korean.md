@@ -1,12 +1,13 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /blog/korean/
+title: Korean Blog
 nav: false
 nav_order: 1
 pagination:
   enabled: true
   collection: posts
+  category: korean
   permalink: /page/:num/
   per_page: 5
   sort_field: date
@@ -22,15 +23,13 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
-
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h1>Korean Blog</h1>
+    <h2>한국어 블로그 게시물</h2>
   </div>
-  {% endif %}
+{% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
-
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -54,9 +53,9 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "categories", "korean" | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -98,19 +97,16 @@ pagination:
       </div>
     </div>
     <hr>
-
 {% endif %}
 
   <ul class="post-list">
-
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.posts | where: "categories", "korean" %}
     {% endif %}
 
     {% for post in postlist %}
-
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
@@ -121,12 +117,10 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     <li>
-
-{% if post.thumbnail %}
-
-<div class="row">
+    {% if post.thumbnail %}
+    <div class="row">
           <div class="col-sm-9">
-{% endif %}
+    {% endif %}
         <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -174,19 +168,15 @@ pagination:
           {% endif %}
     </p>
 
-{% if post.thumbnail %}
-
-</div>
-
-  <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
-  </div>
-</div>
-{% endif %}
+    {% if post.thumbnail %}
+    </div>
+      <div class="col-sm-3">
+        <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+      </div>
+    </div>
+    {% endif %}
     </li>
-
     {% endfor %}
-
   </ul>
 
 {% if page.pagination.enabled %}
