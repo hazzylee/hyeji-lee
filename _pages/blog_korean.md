@@ -3,9 +3,10 @@ layout: default
 permalink: /blog/korean/
 title: Korean Blog
 nav: false
+published : false
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: False
   collection: posts
   category: korean
   permalink: /page/:num/

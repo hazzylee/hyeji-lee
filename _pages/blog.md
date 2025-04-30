@@ -4,8 +4,9 @@ permalink: /blog/
 title: blog
 nav: false
 nav_order: 1
+published: false
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5

@@ -27,12 +27,7 @@
     - title: Korean Government Scholarship Program for Study Overseas
       institution: Ministry of Education, South Korea
       year: Present
-    - title: Lecture & Research scholarship
-      institution: Seoul National University
-      year: 2018
-    - title: SNU Gwanak Residence Halls Scholarship
-      institution: Seoul National University
-      year: 2016-2017
+   
 
 - title: Publications
   type: nested_list
@@ -41,10 +36,10 @@
       items:
         - "Lee, H*., Jeon, Y*., Yoo, C., Seon, H., Park, J., Hwang, M., Baek, K., & Chung, D. (2023). Persistent impacts of smoking on resting-state EEG in male chronic smokers and past-smokers with 20 years of abstinence. Scientific Reports, 13(1), 3907."
         - "Lee, H., & Chung, D. (2022). Characterization of the Core Determinants of Social Influence From a Computational and Cognitive Perspective. Frontiers in Psychiatry / Frontiers Research Foundation, 13, 846535."
-    - title: Manuscripts under review
+    - title: Manuscripts in progress
       items:
         - "Lee, H., Haffner, S., Auyeung, Bonnie, Chevalier, N. (under review). Divergent Paths of Risk: Exploring the Role of Cognitive Control in Adolescent Positive and Negative Risk Taking"
-        - "Lee, H., Chevalier, N. (under review). Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning."
+        - "Lee, H., Chevalier, N. (working paper). Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning."
 
 - title: Conference Presentations
   type: time_table
