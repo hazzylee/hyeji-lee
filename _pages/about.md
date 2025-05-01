@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Edinburgh</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#' style="font-size:1.5em;">Hello!</a>
 
 profile:
   align: right
@@ -17,19 +17,17 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: false # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the _news folder
 
 latest_posts:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+ I am Hyeji Lee, a PhD candidate in the Department of Psychology at the University of Edinburgh. I am seeking postdoctoral opportunities beginning in 2026.
 
-I am Hyeji Lee, a PhD candidate in the Department of Psychology at the University of Edinburgh.
-I am seeking postdoctoral opportunities to investigate environmental effects on development, with particular interest in social influences, socioeconomic status, and adversity exposure. However, I remain open to other research themes that align with my expertise.
+### Current Research
+My doctoral research focuses on cognitive control development in children and adolescents, examining its role in different learning scenarios, using neuroimaging techniques (EEG and fNIRS). This research is supported by the Korean Government Scholarship Program for Study Overseas, Ministry of Education, South Korea and Research support grant from the University of Edinburgh.
 
-My doctoral research focuses on cognitive control development in children and adolescents, examining its role in different learning scenarios, using neuroimaging techniques (EEG and fNIRS). 
-
-I have a keen interest in translational science for educational settings, particularly developing interventions to support children and adolescents who are at risk or in need.
-
-
+### Bridging Education & Development Science
+Originally trained in Education, I maintain strong connections to educational policy while pursuing developmental science research. I have been working as a correspondent for the Korean Educational Development Institute since 2023, writing articles on UK educational policies for Korean scholars and policymakers. My research aims to discover how scientific insights on cognitive development can enhance educational interventions and inform policy decisions for supporting diverse learning needs. Building on this foundation, I plan to expand my post-doctoral research by investigating how environmental factors—particularly social influences, socioeconomic status, and adversity—affect development, with the goal of creating more effective interventions for children and adolescents at risk.
