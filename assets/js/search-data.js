@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/hyeji-lee/publications/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "Overview of my teaching and mentoring experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/hyeji-lee/teaching/";
