@@ -13,7 +13,7 @@
   contents:
     - title: Ph.D. in Psychology (anticipated)
       institution: University of Edinburgh
-      year: 2025
+      year: 2026
     - title: M.A. in Education
       institution: Seoul National University
       year: 2020
@@ -102,6 +102,15 @@
       year: 2019-2020
       description:
         - Taught English and mentored undergraduate students from low-income families
+    - title: Tutor and mentor
+      institution: College of Education, Seoul National University
+      year: 2017-2019
+      description:
+        - Taught English and math to secondary school students from low-income family
+        - Tutoring and mentoring for children at community childcare center
+
+
+
 
 - title: Technical Skills
   type: list
