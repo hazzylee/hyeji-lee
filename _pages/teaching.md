@@ -2,12 +2,15 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Overview of my teaching and mentoring experience.
+description: Overview of my teaching and mentoring experience
+
 nav: true
 nav_order: 4
 ---
 
+
 ### University of Edinburgh
+**[A recipient of the Outstanding Tutor Awards 2025](https://ppls.ed.ac.uk/learning-teaching/outstanding-tutor-awards) | [Statistics Course Details](https://uoepsy.github.io/)**
 
 **Tutor (2023-Current)**
 * **Developmental Cognitive Neuroscience - Childhood**
@@ -37,6 +40,9 @@ nav_order: 4
   * Dimension reduction techniques for questionnaire and survey data analysis
   * Measurement concepts: error, validity, reliability, and replicability
   * Practical implementation of advanced statistical methods in R
+
+
+
 
 **Co-supervisor (2022-2023)**
 * Co-supervised undergraduate and MSc students' dissertations
