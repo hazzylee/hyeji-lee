@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/hyeji-lee/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/hyeji-lee/blog/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -30,21 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/hyeji-lee/teaching/";
           },
-        },{id: "dropdown-korean",
-              title: "Korean",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/hyeji-lee/blog/";
-              },
-            },{id: "dropdown-english",
-              title: "English",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/hyeji-lee/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/hyeji-lee/_pages/dropdown/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -53,6 +53,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/hyeji-lee/blog/2025/plotly/";
+          
+        },
+      },{id: "post-uk-교육정책-동향-사립학교-입학-지원-제도",
+        
+          title: "UK 교육정책 동향: 사립학교 입학 지원 제도",
+        
+        description: "영국 교육 개발원(KEDI) 기고글 요약",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/hyeji-lee/blog/2025/my-first-post/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -394,17 +405,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/hyeji-lee/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/hyeji-lee/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
