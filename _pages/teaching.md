@@ -8,11 +8,17 @@ nav: true
 nav_order: 4
 ---
 
-
 ### University of Edinburgh
 **[A recipient of the Outstanding Tutor Awards 2025](https://ppls.ed.ac.uk/learning-teaching/outstanding-tutor-awards) | [Statistics Course Details](https://uoepsy.github.io/)**
 
 **Tutor (2023-Current)**
+* **Univariate Statistics and Methodology in R (USMR)**
+  * Semester-long intensive course for Masters students on standard statistical methodologies using R
+  * Fundamentals of statistical inference using a simulation-based approach
+  * Comprehensive coverage of the General Linear Model (GLM) as a unifying framework for statistical methods
+  * Progression from basic hypothesis testing (t-tests, Chi-square) to complex modelling (Multiple Regression, Interactions, and GLM)
+  * practical training in data wrangling, assumption checking, diagnostics, and reporting
+
 * **Developmental Cognitive Neuroscience - Childhood**
   * Course examining reciprocal relationships between brain and cognitive development
   * Key phenomena and mechanisms supporting neurocognitive development
@@ -42,8 +48,6 @@ nav_order: 4
   * Practical implementation of advanced statistical methods in R
 
 
-
-
 **Co-supervisor (2022-2023)**
 * Co-supervised undergraduate and MSc students' dissertations
 * Provided guidance on research design, methodology, and analysis
@@ -54,5 +58,23 @@ nav_order: 4
 ### Seoul National University
 
 **Mentor (2019-2020)**
-* Taught English to undergraduate students from low-income families
-* Provided mentorship through the Sublime Learning Community program
+* **Sublime Learning Community, Center for Teaching and Learning**
+  * Taught English and mentored undergraduate students from low-income families
+  * Supported successful adaptation to university life in academic and career affairs
+
+**Tutor (2017-2019)**
+* **SNU Active Mentoring Program, College of Education**
+  * Taught English and mathematics to secondary school students from low-income families
+  * Provided tutoring and mentoring for children at community childcare centers
+
+
+<br>
+### Outreach and Community Service
+
+**Volunteer (Sep 2025)**
+* **Biggar Science Festival**, Biggar, UK
+  * Participated in community science outreach event aimed at engaging people of all ages in STEM through accessible and educational activities
+
+**Organizer (Aug 2025)**
+* **Cognitive Science Discovery Day**, University of Edinburgh
+  * Organized a drop-in event featuring interactive research demonstrations and public engagement activities

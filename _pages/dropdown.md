@@ -3,7 +3,7 @@ layout: page
 title: blog
 nav: true
 nav_order: 5
-dropdown: true
+dropdown: false
 children:
   - title: Korean
     permalink: /blog/korean

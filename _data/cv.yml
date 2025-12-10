@@ -4,110 +4,133 @@
     - name: Full Name
       value: Hyeji Lee
     - name: Email
-      value: hyeji.lee@ed.ac.uk
+      value: hyeji.lee99@gmail.com
     - name: Location
       value: 7 George Square, Edinburgh, EH8 9JZ
+    - name: Research Interests
+      value: >-
+        Adolescent decision-making under uncertainty, positive risk-taking, 
+        cognitive control development, and the impact of socioeconomic context on developmental processes.
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Psychology (anticipated)
+    - title: Ph.D. in Psychology (Anticipated)
       institution: University of Edinburgh
       year: 2026
     - title: M.A. in Education
       institution: Seoul National University
       year: 2020
-    - title: B.A. in Education (Summa cum laude)
+    - title: B.A. in Education (Summa Cum Laude)
       institution: Seoul National University
       year: 2016
 
 - title: Academic and Professional Honors
   type: time_table
   contents:
-    - title: Korean Government Scholarship Program for Study Overseas
-      institution: Ministry of Education, South Korea
-      year: Present
-    - title: Outstanding Tutor Awards
-      institution: School of Philosophy, Psychology, and Language Sciences, University of Edinburgh
+    - title: Outstanding Tutor Award
+      institution: University of Edinburgh
       year: 2025
-
+    - title: Graduate Student Travel Award
+      institution: Society for Research in Child Development (SRCD)
+      year: 2024
+    - title: FENS Travel Grant
+      institution: Federation of European Neuroscience Societies
+      year: 2024
+    - title: Korean Government Scholarship Program for Study Overseas
+      institution: Ministry of Education, Korea
+      year: 2021
+  
 - title: Publications
   type: nested_list
   contents:
     - title: Journal Publications
       items:
-        - "Lee, H*., Jeon, Y*., Yoo, C., Seon, H., Park, J., Hwang, M., Baek, K., & Chung, D. (2023). Persistent impacts of smoking on resting-state EEG in male chronic smokers and past-smokers with 20 years of abstinence. Scientific Reports, 13(1), 3907."
-        - "Lee, H., & Chung, D. (2022). Characterization of the Core Determinants of Social Influence From a Computational and Cognitive Perspective. Frontiers in Psychiatry / Frontiers Research Foundation, 13, 846535."
-    - title: Manuscripts in progress
+        - "Lee, H., Haffner, S., Auyeung, B., & Chevalier, N. (2025). Beyond Risk Reduction: Exploring the Relation of Cognitive Control with Adolescent Positive and Negative Risk Taking. Journal of Research on Adolescence, 35(4), 1-19. doi: 10.1111/jora.70103"
+        - "Lee, H*., Jeon, Y*., Yoo, C., Seon, H., Park, J., Hwang, M., Baek, K., & Chung, D. (2023). Persistent impacts of smoking on resting-state EEG in male chronic smokers and past-smokers with 20 years of abstinence. Scientific Reports, 13(1), 1-11. doi: 10.1038/s41598-023-29547-3"
+        - "Lee, H., & Chung, D. (2022). Characterization of the Core Determinants of Social Influence from a Computational and Cognitive Perspective. Frontiers in Psychiatry, 13, 1-11. doi: 10.3389/fpsyt.2022.846535"
+    - title: Manuscripts in Preparation
       items:
-        - "Lee, H., Haffner, S., Auyeung, Bonnie, Chevalier, N. (under review). Divergent Paths of Risk: Exploring the Role of Cognitive Control in Adolescent Positive and Negative Risk Taking"
-        - "Lee, H., Chevalier, N. (working paper). Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning."
+        - "Lee, H., Chevalier, N. (In Preparation). Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning."
 
 - title: Conference Presentations
   type: time_table
   contents:
     - title: "Developmental changes in the dynamic of cognitive control engagement during skill learning"
-      institution: SRCD (Society for Research in Child Development) 2025 Biennial Meeting, Minneapolis, US
-      year: 2025
+      institution: "SRCD 2025 Biennial Meeting, Minneapolis, US"
+      year: "May 2025"
       description:
-        - Poster presentation accepted with the Graduate Student Biennial Travel Award
+        - Poster presentation
     - title: "Exploring the Role of Cognitive Control in Adolescent Positive and Negative Risk Taking"
-      institution: SRCD (Society for Research in Child Development) 2025 Biennial Meeting, Minneapolis, US
-      year: 2025
+      institution: "SRCD 2025 Biennial Meeting, Minneapolis, US"
+      year: "May 2025"
       description:
-        - Poster presentation accepted with the Graduate Student Biennial Travel Award
+        - Poster presentation
     - title: "Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning"
-      institution: FENS (Federation of European Neuroscience Societies) Forum 2024, Vienna, Austria
-      year: 2024
+      institution: "FENS Forum 2024, Vienna, Austria"
+      year: "June 2024"
       description:
-        - Poster presentation accepted with the FENS travel grant
+        - Poster presentation
 
-- title: Research Experience
+- title: Research Appointments
   type: time_table
   contents:
-    - title: Post-master Researcher
-      institution: Decision Neuroscience & Cognitive Engineering lab, Department of Biomedical Engineering, Ulsan National Institute of Science and Technology, South Korea
+    - title: Post-Master Researcher
+      institution: Decision Neuroscience & Cognitive Engineering Lab, UNIST, Korea
       year: 2020-2021
       description:
-        - Research on brain prefrontal network functional connectivity in nicotine-dependent smokers
-        - Research on susceptibility to social influence during decision-making under risk
-        - Wrote a review paper about the core factors of social influence
+        - Conducted neuroimaging experiments (fMRI and EEG) to examine neural mechanisms of social influence and risk-taking
+        - Analyzed prefrontal network functional connectivity in nicotine-dependent smokers
+        - Authored a comprehensive review paper on social influence
     - title: Research Assistant
-      institution: Siheungsi-SNU Education Cooperation Center, South Korea
+      institution: Siheungsi-SNU Education Cooperation Center, Seoul National University
       year: 2018-2019
       description:
-        - Developed assessment systems for educational programmes for children from multicultural family backgrounds and children with mild dyslexia
+        - Assisted in developing assessment systems for educational programs, focusing on multicultural families and children with mild dyslexia
 
 - title: Teaching and Mentoring Experience
   type: time_table
   contents:
     - title: Tutor
-      institution: University of Edinburgh, School of Philosophy, Psychology and Language Sciences
+      institution: University of Edinburgh
       year: 2023-Present
       description:
-        - Developmental Cognitive Neuroscience - Childhood
-        - Data analysis for psychology in R 1
-        - Data analysis for psychology in R 2
-        - Data analysis for psychology in R 3
+        - "Courses: Data analysis for psychology in R (Level 1–3)
+        - Developmental Cognitive Neuroscience – Childhood
+        - Univariate Statistics and Methodology in R (Graduate-level)"
     - title: Co-supervisor
       institution: University of Edinburgh
       year: 2022-2023
       description:
-        - Co-supervised undergraduate students' dissertations
-        - Co-supervised MSc students' dissertations
+        - Co-supervised undergraduate and MSc students’ dissertations
     - title: Mentor
       institution: Sublime Learning Community, Seoul National University
       year: 2019-2020
       description:
-        - Taught English and mentored undergraduate students from low-income families
-    - title: Tutor and mentor
-      institution: College of Education, Seoul National University
+        - Mentored undergraduate students from low-income families in academic and career adaptation
+    - title: Tutor
+      institution: SNU Active Mentoring Program, Seoul National University
       year: 2017-2019
       description:
-        - Taught English and math to secondary school students from low-income family
-        - Tutoring and mentoring for children at community childcare center
-
-
+        - Taught English and math to secondary school students from low-income families
+    - title: Tutor
+      institution: Samsung Dream Class / Shinhan Mentoring / SNU Saessak Mentoring
+      year: 2011-2015
+      description:
+        - Various mentoring roles for students from low-income families
+- title: Academic and Community Service
+  type: time_table
+  contents:
+    - title: Volunteer
+      institution: Biggar Science Festival, UK
+      year: "Sep 2025"
+      description:
+        - Participated in community science outreach events for public engagement in STEM
+    - title: Organizer
+      institution: Cognitive Science Discovery Day, University of Edinburgh
+      year: "Aug 2025"
+      description:
+        - Organized drop-in events featuring interactive research demonstrations
 
 - title: Technical Skills
   type: list
@@ -121,4 +144,4 @@
       institution: Korean Educational Development Institute
       year: 2023-Present
       description:
-        - Writing articles on educational policies and issues in the UK
+        - Authored analytical reports on UK educational policies and contemporary issues

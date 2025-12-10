@@ -2,11 +2,11 @@
 layout: default
 permalink: /blog/korean/
 title: Korean Blog
-nav: false
-published : false
+nav: true              # 메뉴바에 'Korean Blog'가 보이도록 true로 변경
+published: false       # 페이지가 실제로 생성되도록 true로 변경
 nav_order: 1
 pagination:
-  enabled: False
+  enabled: false       # 일단 false로 두고 테스트 (나중에 글 많아지면 true로 변경)
   collection: posts
   category: korean
   permalink: /page/:num/
@@ -14,8 +14,8 @@ pagination:
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 1
+    after: 3
 ---
 
 <div class="post">
