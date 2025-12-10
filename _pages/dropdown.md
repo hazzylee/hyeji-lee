@@ -1,7 +1,7 @@
 ---
 layout: page
 title: blog
-nav: true
+nav: false
 nav_order: 5
 dropdown: false
 children:

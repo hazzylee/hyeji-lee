@@ -83,14 +83,15 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
+
 # -----------------------------------------------------------------------------
-# Blog
+# Blog (Correspondents 설정으로 변경)
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Correspondents   # 블로그 페이지 상단이나 탭 이름에 표시될 이름
+blog_description: Articles and reports on educational policies and issues # 설명
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false 
 
 # Pagination
 pagination:
@@ -100,36 +101,36 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# Giscus comments (댓글 기능)
+# 댓글이 필요 없다면 repo 부분을 비워두세요.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  repo: # 댓글을 안 쓸 거면 여기를 비워두세요
+  repo_id: 
+  category: Comments
+  category_id: 
+  mapping: title
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  theme: preferred_color_scheme
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+# Disqus comments (사용 안 함)
+disqus_shortname: # 비워두세요
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+# External sources (중요: 샘플 데이터 삭제)
+# 이 부분이 남아있으면 내 글이 아닌 남의 글(구글, 미디엄)이 섞여 나옵니다.
+# 필요 없다면 아예 비워두거나 아래처럼 주석(#) 처리하세요.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
+  
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
