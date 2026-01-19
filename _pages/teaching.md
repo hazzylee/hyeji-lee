@@ -47,6 +47,21 @@ nav_order: 4
   * Measurement concepts: error, validity, reliability, and replicability
   * Practical implementation of advanced statistical methods in R
 
+<br>
+
+***Student Feedback***
+> "You were an absolutely amazing tutor in the lab sessions. I really liked your way of explanation. It is very conceptual and easy to follow. Thank you so much :)"
+
+> "Incredibly patient, insightful, and informative!"
+
+> "Hyeji was always looking around the room to see if students needed help and I often was able to get my question answered by her help. She was able to break down the question with me and provided me with a better understanding of the question I was stuck on and why."
+
+> "She was extremely kind and helpful during our lab sessions. Cleared all our doubts :)"
+
+> "Very enthusiastic!!"
+
+> "Ur so friendly and also helpful! Thank you for the amazing three years!"
+
 
 **Co-supervisor (2022-2023)**
 * Co-supervised undergraduate and MSc students' dissertations
@@ -67,14 +82,3 @@ nav_order: 4
   * Taught English and mathematics to secondary school students from low-income families
   * Provided tutoring and mentoring for children at community childcare centers
 
-
-<br>
-### Outreach and Community Service
-
-**Volunteer (Sep 2025)**
-* **Biggar Science Festival**, Biggar, UK
-  * Participated in community science outreach event aimed at engaging people of all ages in STEM through accessible and educational activities
-
-**Organizer (Aug 2025)**
-* **Cognitive Science Discovery Day**, University of Edinburgh
-  * Organized a drop-in event featuring interactive research demonstrations and public engagement activities
