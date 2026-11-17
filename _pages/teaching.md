@@ -11,7 +11,7 @@ nav_order: 4
 ### University of Edinburgh
 **[A recipient of the Outstanding Tutor Awards 2025](https://ppls.ed.ac.uk/learning-teaching/outstanding-tutor-awards) | [Statistics Course Details](https://uoepsy.github.io/)**
 
-**Tutor (2023-2026)**
+**Tutor (2023-2025)**
 * **Univariate Statistics and Methodology in R (USMR)**
   * Semester-long intensive course for Masters students on standard statistical methodologies using R
   * Fundamentals of statistical inference using a simulation-based approach
