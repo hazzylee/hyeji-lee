@@ -6,18 +6,22 @@
     - name: Email
       value: hyeji.lee99@gmail.com
     - name: Location
-      value: 7 George Square, Edinburgh, EH8 9JZ
+      value: Daegu, Republic of Korea
     - name: Research Interests
       value: >-
-        Adolescent decision-making under uncertainty, positive risk-taking, 
-        cognitive control development, and the impact of socioeconomic context on developmental processes.
+        Cognitive control as a dynamic mechanism for learning, decision-making, and adaptive behaviour
+        across childhood and adolescence; individual differences in neural development, including
+        children with ADHD and learning differences; multi-modal neuroimaging (EEG and fNIRS).
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Psychology (Anticipated)
+    - title: Ph.D. in Psychology
       institution: University of Edinburgh
       year: 2026
+      description:
+        - "Dissertation: Cognitive Control as a Dynamic Mechanism for Learning across Development"
+        - "Supervisor: Nicolas Chevalier, Ph.D."
     - title: M.A. in Education
       institution: Seoul National University
       year: 2020
@@ -37,10 +41,37 @@
     - title: FENS Travel Grant
       institution: Federation of European Neuroscience Societies
       year: 2024
+    - title: Outstanding Correspondent Award
+      institution: Korean Educational Development Institute
+      year: 2023
     - title: Korean Government Scholarship Program for Study Overseas
       institution: Ministry of Education, Korea
-      year: 2021
+      year: 2021-2023
   
+- title: Research Appointments
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: Department of Brain Convergence, Korea Brain Research Institute (KBRI), Korea
+      year: 2026-Present
+      description:
+        - Investigating how smartphone use influences the development of cognitive control
+        - Conducting a comparative study of children with ADHD and typically developing children, examining how cognitive control development relates to brain structure and function
+        - Independently establishing a developmental EEG laboratory, including wireless EEG systems for laboratory research and portable EEG systems for use in educational settings
+        - Setting up an EEG hyperscanning system for simultaneous recording from multiple participants
+    - title: Post-Master Researcher
+      institution: Decision Neuroscience & Cognitive Engineering Lab, UNIST, Korea
+      year: 2020-2021
+      description:
+        - Conducted neuroimaging experiments (fMRI and EEG) to examine neural mechanisms of social influence and risk-taking
+        - Analyzed prefrontal network functional connectivity in nicotine-dependent smokers
+        - Authored a comprehensive review paper on social influence
+    - title: Research Assistant
+      institution: Siheungsi-SNU Education Cooperation Center, Seoul National University
+      year: 2018-2019
+      description:
+        - Assisted in developing assessment systems for educational programs, focusing on multicultural families and children with mild dyslexia
+
 - title: Publications
   type: nested_list
   contents:
@@ -51,7 +82,8 @@
         - "Lee, H., & Chung, D. (2022). Characterization of the Core Determinants of Social Influence from a Computational and Cognitive Perspective. Frontiers in Psychiatry, 13, 1-11. doi: 10.3389/fpsyt.2022.846535"
     - title: Manuscripts in Preparation
       items:
-        - "Lee, H., Chevalier, N. (In Preparation). Developmental and Temporal Dynamics in Cognitive Control Engagement during Explicit Learning."
+        - "Lee, H., & Chevalier, N. (2026). Flexible modulation of cognitive control shapes skill automatisation: Midfrontal theta dynamics across development. PsyArXiv. https://osf.io/preprints/psyarxiv/u8kwn_v1"
+        - "Lee, H., Hadley, L. V., & Chevalier, N. (2026). Developmental differences in prefrontal dynamics during motor sequence learning. PsyArXiv. https://osf.io/preprints/psyarxiv/gwevt_v1"
 
 - title: Conference Presentations
   type: time_table
@@ -72,35 +104,19 @@
       description:
         - Poster presentation
 
-- title: Research Appointments
-  type: time_table
-  contents:
-    - title: Post-Master Researcher
-      institution: Decision Neuroscience & Cognitive Engineering Lab, UNIST, Korea
-      year: 2020-2021
-      description:
-        - Conducted neuroimaging experiments (fMRI and EEG) to examine neural mechanisms of social influence and risk-taking
-        - Analyzed prefrontal network functional connectivity in nicotine-dependent smokers
-        - Authored a comprehensive review paper on social influence
-    - title: Research Assistant
-      institution: Siheungsi-SNU Education Cooperation Center, Seoul National University
-      year: 2018-2019
-      description:
-        - Assisted in developing assessment systems for educational programs, focusing on multicultural families and children with mild dyslexia
-
 - title: Teaching and Mentoring Experience
   type: time_table
   contents:
     - title: Tutor
       institution: University of Edinburgh
-      year: 2023-Present
+      year: 2023-2026
       description:
         - "Courses: Data analysis for psychology in R (Level 1–3)
         - Developmental Cognitive Neuroscience – Childhood
         - Univariate Statistics and Methodology in R (Graduate-level)"
     - title: Co-supervisor
       institution: University of Edinburgh
-      year: 2022-2023
+      year: 2022-2024
       description:
         - Co-supervised undergraduate and MSc students’ dissertations
     - title: Mentor
@@ -135,7 +151,10 @@
 - title: Technical Skills
   type: list
   contents:
-    - "Python, R, MATLAB, Gorilla, PsychoPy, Qualtrics, SPSS"
+    - "Python: MNE-Python, EEG preprocessing and analysis pipelines, time-frequency analysis, permutation-based cluster inference, fNIRS analysis"
+    - "R: linear and non-linear mixed-effects models, PCA-based composite scores, reproducible reporting (R Markdown/Quarto)"
+    - "MATLAB: fNIRS preprocessing and GLM modelling (nirs-toolbox, Homer3, QT-NIRS); EEG preprocessing (EEGLAB, HAPPE, MADE)"
+    - "Experiment platforms: PsychoPy, Gorilla, Qualtrics"
 
 - title: Other Appointments
   type: time_table
