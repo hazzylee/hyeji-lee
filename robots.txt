@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hyejilee.github.io/hyeji-lee/sitemap.xml
+Sitemap: https://hazzylee.github.io/hyeji-lee/sitemap.xml
